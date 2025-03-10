@@ -1,9 +1,14 @@
-body{
-    justify-content: center;
-    align-items: center;
-    
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centraliza o conteúdo horizontalmente */
+    justify-content: center; /* Centraliza o conteúdo verticalmente (opcional) */
+    min-height: 100vh; /* Garante que o body ocupe toda a altura da tela */
+    margin: 0;
+    padding: 0;
 }
-div{
+
+div {
     font-family: Arial, Helvetica, sans-serif;
     border-radius: 4px;
     background: #111;
@@ -12,38 +17,35 @@ div{
     margin: 20px;
     height: 150px;
     width: 1000px;
-    justify-content: center;
-    
+    /* Removi o justify-content pois não é aplicável a divs não-flexíveis */
 }
 
-h1{
+h1 {
     color: #111;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-h2{
+h2 {
     color: #fff;
     margin: 20px;
-    
 }
 
-h3{
-    margin-top: -7px;
+h3 {
+    margin-top: 13px;
     color: #000;
 }
 
-p{
+p {
     color: #b2b2b2;
     margin: 20px;
 }
 
-
-.numero{
-    color: #febe01
+.numero {
+    color: #febe01;
 }
 
-.botao{
+.botao {
     width: 170px;
     height: 10px;
     padding: 10px;
@@ -51,5 +53,6 @@ p{
     background-color: #febe01;
     border-radius: 4px;
     display: flex;
-    
+    align-items: center; /* Centraliza o texto do botão verticalmente */
+    justify-content: center; /* Centraliza o texto do botão horizontalmente */
 }
