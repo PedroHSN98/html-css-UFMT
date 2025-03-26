@@ -10,13 +10,13 @@
 }
 
 /*Header*/
-.header-bg{
+.header-bg {
     background-color: #000000;  
-    position: fixed;
+    position: fixed; /* Elemento posicionado (necessário para z-index funcionar) */
     width: 100%;
     top: 0;
     left: 0;
-    z-index: 10;
+    z-index: 10; /* Garante que o header fique acima da maioria dos elementos */
 }
 .header{
     display: flex;
