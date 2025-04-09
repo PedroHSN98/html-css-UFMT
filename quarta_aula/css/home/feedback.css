@@ -1,0 +1,39 @@
+#feedbacks{
+    background-color: #000000;
+    padding: 120px 0px 240px 0px;
+}
+.feedbacks-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+    overflow-x: auto;
+}
+.comentario{
+    background-color: #39373D;
+    padding: 40px;
+    border-radius: 10px;
+    min-width: 440px;
+}
+.perfil{
+    display: flex;
+    column-gap: 20px;
+    align-items: flex-start; 
+}
+.name{
+    font-size: 2rem;
+    color: #ffffff;
+    margin-top: 10px;
+}
+.funcao{
+    color: #a3a3a3;
+    margin-bottom: 20px;
+} 
+.avaliacao{
+    font-size: 1.5rem;
+    color: #ffffff;
+}
+@media (max-width: 1400px){
+    #feedbacks h2{
+        margin-bottom: 120px;
+    } 
+}

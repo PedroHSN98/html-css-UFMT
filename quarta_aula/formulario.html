@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="shortcut icon" href="/img/favicon.svg" type="image/x-icon">
+</head>
+<body>
+    <header class="header-bg">
+        <div class="header">
+        <a href="./">
+            <img src="/img/logo-medialab.svg" alt="MediaLab">
+        </a>
+        <nav aria-label="navegação primária">
+            <ul class="header-menu">
+               <li><a href="#Programação">Programação</a></li>
+               <li><a href="#Instrutor">Instrutor</a></li> 
+               <li><a href="#Feedbacks">Feedbacks</a></li> 
+               <li><a href="#Localização">Localização</a></li>
+               <li><a href="./formulario.html"><button class="header-btn">Inscreva-se</button></a></li>
+            </ul>                
+        </nav>        
+        </div>
+    </header>
+
+    <main class="formulario-bg">
+        <div class="dados container">
+            <section class="contato"  aria-label="contato">
+                <img src="./img/logo-weblab-form.svg" alt="weblab">
+                <div class="endereco">
+                    <img src="./img/icones/localizacao.svg" alt="">
+                    <p>UFMT, bloco didático 2, sala 14</p>
+                </div>
+                <address>
+                    <div class="email">
+                        <img src="./img/icones/contato.svg" alt="">
+                        <a href="mailto:contato@medialab.com">contato@medialab.com</a>
+                    </div>
+                    <div class="telefone">
+                        <img src="./img/icones/telefone.svg" alt="">
+                        <p>(65) 9 9999-9999</p>
+                    </div>
+                </address>
+
+                <p class="p-redes">Acompanhe nas redes</p>
+                <div class="redes">
+                    <img src="/img/icones/facebook.svg" alt="facebook">
+                    <img src="/img/icones/youtube.svg" alt="youtube">
+                    <img src="/img/icones/instagram.svg" alt="instagram">
+                </div>
+            </section>
+
+            <section class="formulario"  aria-label="formulario">
+                <div>
+                    <label for="nome">Nome</label>
+                    <input type="text" name="nome" id="nome" placeholder="Seu Nome">
+                </div>
+                <div>
+                    <label for="telefone">Telefone</label>
+                    <input type="text" name="telefone" id="telefone" placeholder="(65) 9 9999-9999">
+                </div>
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="contato@medialab.com">
+                </div>
+                <div class="dropdown">
+                    <label for="comunidade">Comunidade</label>
+                    <select name="comunidade" id="comunidade">
+                        <option value="inicial">Escolha uma opção</option>
+                        <option value="">Comunidade externa</option>
+                        <option value="">Comunidade interna</option>
+                    </select>    
+                </div>
+                <div class="textarea">
+                <label for="expectativas">Expectativas</label>
+                <textarea name="expectativas" id="expectativas" rows="5" placeholder="Escreva aqui o que você espera do curso"></textarea>
+                </div>
+                <button class="header-btn tam">Inscreva-se</button>
+            </section>
+        </div>
+    </main>
+
+
+    <footer class="footer-bg">
+        <div class="footer container">
+            <a href="./index.html"><img src="/img/logo-medialab.svg" alt="MediaLab"></a>
+
+            <div class="redes">
+                <img src="/img/icones/facebook.svg" alt="facebook">
+                <img src="/img/icones/youtube.svg" alt="youtube">
+                <img src="/img/icones/instagram.svg" alt="instagram">
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
